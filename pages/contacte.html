@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <title>Bstn Energy</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="../index.html">
+        Bstn Energy
+        <i class="fas fa-running logo"></i>
+      </a>
+      <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+    </header>
+
+    <div class="page-container">
+      <aside id="side-menu">
+        <a href="../index.html"
+          >Home
+          <i class="fas fa-home"></i>
+        </a>
+        <a href="products.html"
+          >Products
+          <i class="fas fa-sort-alpha-up"></i>
+        </a>
+        <a href="contacte.html"
+          >Contact
+          <i class="fas fa-address-book"></i>
+        </a>
+      </aside>
+
+      <main>
+        <h2 class="title">Contact</h2>
+        <div class="row">
+          <div class="row-50">
+            <h3>Contact us if:</h3>
+
+            <ul class="contact-list">
+              <li>There are problems with the order.</li>
+              <li>You want to be part of our team.</li>
+              <li>You have suggestions/proposals.</li>
+              <li>Other topics related to our company.</li>
+            </ul>
+          </div>
+          <div class="col-50"></div>
+          <h3>Contacts:</h3>
+          <ul class="contact-list">
+            <li><b>Adress:</b> Bucharest, St. Tudor-Arghezi 1</li>
+            <li><b>Phone:</b> +40710101005</li>
+            <li><b>Working Hours:</b> 9:30 - 18:00</li>
+          </ul>
+        </div>
+
+        <div class="row">
+          <div class="col-50">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8216294297263!2d26.102923776804897!3d44.43682097107578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff385c4fe979%3A0xf3286511d0e7f960!2sStrada%20Tudor%20Arghezi%201%2C%20Bucure%C8%99ti%20030167!5e0!3m2!1sro!2sro!4v1693747907657!5m2!1sro!2sro"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="map"
+            ></iframe>
+          </div>
+
+          <div class="col-50">
+            <div class="contact-form">
+              <form>
+                <h3 class="centered">Leave a message!</h3>
+                <input type="text" placeholder="Name" required />
+                <input type="email" placeholder="E-mail" required />
+                <textarea rows="3" placeholder="Message" required></textarea>
+                <input type="submit" value="Send!" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
